@@ -10,5 +10,5 @@ app.use('/users', usersRouter)
 app.get('/', (req, res) => res.send('Welcome to our server and database!'))
 
 app.listen(port, () => {
-  console.log('app is listening on:', port)
+  console.log('app is listening on port:', port)
 })
